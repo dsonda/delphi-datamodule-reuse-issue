@@ -1,8 +1,9 @@
 inherited frmCustomer: TfrmCustomer
-  Caption = 'frmCustomer'
-  OnClose = FormClose
+  Caption = 'Customers'
   OnCreate = FormCreate
   OnDestroy = FormDestroy
+  ExplicitWidth = 543
+  ExplicitHeight = 281
   PixelsPerInch = 96
   TextHeight = 13
   inherited dbnCRUD: TDBNavigator

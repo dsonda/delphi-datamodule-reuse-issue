@@ -1,7 +1,9 @@
 inherited frmOrder: TfrmOrder
-  Caption = 'frmOrder'
+  Caption = 'Orders'
   OnCreate = FormCreate
   OnDestroy = FormDestroy
+  ExplicitWidth = 543
+  ExplicitHeight = 281
   PixelsPerInch = 96
   TextHeight = 13
   inherited dbnCRUD: TDBNavigator

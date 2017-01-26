@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
   Left = 0
   Top = 0
-  Caption = 'frmMain'
+  Caption = 'Main Form'
   ClientHeight = 242
   ClientWidth = 527
   Color = clBtnFace
@@ -18,7 +18,7 @@ object frmMain: TfrmMain
     Top = 112
     Width = 75
     Height = 25
-    Caption = 'btnCustomers'
+    Caption = 'Customers'
     TabOrder = 0
     OnClick = btnCustomersClick
   end
@@ -27,7 +27,7 @@ object frmMain: TfrmMain
     Top = 112
     Width = 75
     Height = 25
-    Caption = 'btnOrders'
+    Caption = 'Orders'
     TabOrder = 1
     OnClick = btnOrdersClick
   end
