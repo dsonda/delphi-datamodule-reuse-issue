@@ -32,6 +32,8 @@ begin
   inherited;
   dtmOrder := TdtmOrder.Create(nil);
   FdtmCustomer := TdtmCustomer.Create(nil);
+  // solution
+//  FdtmCustomer.Name := 'FdtmCustomer';
 end;
 
 procedure TfrmOrder.FormDestroy(Sender: TObject);
