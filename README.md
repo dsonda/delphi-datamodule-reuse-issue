@@ -42,7 +42,7 @@ Primeiro, agradeço ao @kmerlotti pela explicação abaixo:
 
 Segundo, o problema é resolvido alterando o nome do datamodule criado no frmOrder:
 
-```
+```delphi
 procedure TfrmOrder.FormCreate(Sender: TObject);
 begin
   inherited;
